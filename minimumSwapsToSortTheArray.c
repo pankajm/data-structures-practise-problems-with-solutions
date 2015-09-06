@@ -1,7 +1,9 @@
 
 /***    Author : Pankaj Marghade 
 	Date   : 6 sep, 2015    
-	license: GNU general public license ***/
+	license: GNU general public license v3.0 ***/
+
+/* Please find license copy at - http://www.gnu.org/licenses/gpl-3.0.en.html */
 
 /* Problem stmt :- An operation "swap" means removing an element from the array and appending it at the back of the same array. Find the minimum number of "swaps" needed to sort that array
 
