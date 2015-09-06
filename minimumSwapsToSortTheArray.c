@@ -1,19 +1,25 @@
 
+/*------------------------------ License Starts ----------------------------- */
+
 /***    Author : Pankaj Marghade 
 	Date   : 6 sep, 2015    
-	license: GNU general public license v3.0 ***/
+	license: GNU general public license v3.0 
 
-/* Please find license copy at - http://www.gnu.org/licenses/gpl-3.0.en.html */
+ Please find license copy at - http://www.gnu.org/licenses/gpl-3.0.en.html */
 
-/* Problem stmt :- An operation "swap" means removing an element from the array and appending it at the back of the same array. Find the minimum number of "swaps" needed to sort that array
+/* ----------------------------- License End -------------------------------- */
+
+/* Problem stmt :- An operation "swap" means removing an element from the array and appending it at the back of the same array. 
+Find the minimum number of "swaps" needed to sort that array
 
 Eg :- 3124
 Output: 2 (3124->1243->1234)
-expected Complexity :- O(n) */
+expected Complexity :- O(n) 
 
 
-// Algo - 
-/* We will swap the number if its greater than its next number and 
+   Algo :: 
+
+   We will swap the number if its greater than its next number and 
    maintain the minimum number swaped in this process.
    if the number is not greater then we check if its greater than the last minimum number swaped, 
    if greater then increase the count by 1 as we need to replace this number as well in future. */
