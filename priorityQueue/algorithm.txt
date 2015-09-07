@@ -1,0 +1,19 @@
+
+					/***    Author : Pankaj Marghade 
+						Date   : 7 sep, 2015    
+						license: GNU general public license v3.0 ***/
+ 				
+				Please find license copy at - http://www.gnu.org/licenses/gpl-3.0.en.html */
+
+
+/* Problem stmt :- Design job scheduler where jobs will have random priority. Lets take object with [key,value] where value represent priority. Higher the value means higher the priority. Aks user if he wants to feed job or read job. For feeding job ask key, value and based on priority which is value arrange it in heap. For reading delete job at the top and give it to user. 
+
+*/
+
+/* algo - So basically we have to implement max heap here, only difference here is that the elements are not only intergers or floats but the objects so for implementating this heap we will have an array of pointers where each pointer will point to a structure which will contain key and value. Here we will have 3 files -
+
+1. priorityQueue.h - contains the structure template and function declarations 
+2. priorityQueue.c - contains the actually function definitions
+3. usePriorityQueue.c - contains the main function that will bootstrap the program.
+
+*/
