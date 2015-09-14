@@ -1,4 +1,4 @@
-	/* its only the c function which prints all paths in a binary tree that sums up to given sum. 
+	/* its only the c function which prints all paths from root to any node in a binary tree that sums up to given sum. 
            The code is designed to work for negative numbers as well.
  	   Time Complextiy := o(n)  */
 
